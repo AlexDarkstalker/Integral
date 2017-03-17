@@ -18,7 +18,7 @@ public class Middlerectangles {
         double h = (b - a) / n;
         //step=h*nForThread;
         for (int i = 0; i < n; i++)
-            r = r + fnc.f(a + i * h + h / 2);
+            r += fnc.f(a + i * h + h / 2);
         return r * h;
     }
 }

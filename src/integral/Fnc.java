@@ -10,6 +10,6 @@ package integral;
  */
 public class Fnc {
     public double f(double x) {
-        return x * x;
+        return x * x * x;
     }
 }
